@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config.Css -->
+    <!-- tailwind config js -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body>
+    <h1 class="text-5xl text-white text-center">hello nevber</h1>
+
+    <div class="lg:container lg:mx-auto">
+        <nav class="sticky top-0">
+          <div class="navbar sticky">
+            <div class="navbar-start">
+              <a class="btn btn-ghost normal-case text-xl"
+                ><img
+                  src="./image/ZEDX EYE.png"
+                  alt=""
+                  class="w-14 lg:w-28 flex justify-end items-"
+              /></a>
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </label>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white"
+                >
+                  <li><a>Home</a></li>
+                  <li><a href="./about-us.html">About</a></li>
+                  <li>
+                    <a>Services</a>
+                    <ul class="p-2">
+                      <li><a>Vulnerability Assement</a></li>
+                      <li><a>Penetration Testing</a></li>
+                      <li><a>Network Security</a></li>
+                      <li><a>Website</a></li>
+                      <li><a>SEO</a></li>
+                      <li><a>Content Writing</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a>Resources</a>
+                    <ul class="p-2">
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blog</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 md:text-base xl:text-xl">
+                <li class="hover:bg-sky-700 rounded-xl"><a href="./index.html">Home</a></li>
+                <li class="hover:bg-sky-700 rounded-xl"><a href="./app/about-us.html">About</a></li>
+                <li tabindex="0">
+                  <details>
+                    <summary class="hover:bg-sky-700 rounded-xl">
+                      Services
+                    </summary>
+                    <div>
+                      <!-- <ul class="p-2 w-64">
+                        <li class="hover:bg-sky-700 hover:text-white rounded-xl">
+                          <a>Vulnerability Assement</a>
+                        </li>
+                        <li class="hover:bg-sky-700 rounded-xl">
+                          <a>Penetration Testing</a>
+                        </li>
+                        <li class="hover:bg-sky-700 rounded-xl">
+                          <a>Network Security</a>
+                        </li>
+                        <li class="hover:bg-sky-700 rounded-xl">
+                          <a>Website</a>
+                        </li>
+                        <li class="hover:bg-sky-700 rounded-xl">
+                          <a>SEO</a>
+                        </li>
+                        <li class="hover:bg-sky-700 rounded-xl">
+                          <a>Content Writing</a>
+                        </li>
+                      </ul> -->
+                      <section class="container mx-auto flex">
+                        <div class="w-1/4">
+                            <h3 class="text-white text-xl">Cyber Security</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/4">
+                            <h3 class="text-white text-xl">Cyber Security</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/4">
+                            <h3 class="text-white text-xl">Cyber Security</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/4">
+                            <h3 class="text-white text-xl">Cyber Security</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">home</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                  </details>
+                </li>
+                <li class="hover:bg-sky-700 rounded-xl"><a href="">Blog</a></li>
+                <li class="hover:bg-sky-700 rounded-xl"><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+<!-- <section class="container mx-auto flex">
+    <div class="w-1/4">
+        <h3 class="text-white text-xl">Cyber Security</h3>
+        <div>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="w-1/4">
+        <h3 class="text-white text-xl">Cyber Security</h3>
+        <div>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="w-1/4">
+        <h3 class="text-white text-xl">Cyber Security</h3>
+        <div>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="w-1/4">
+        <h3 class="text-white text-xl">Cyber Security</h3>
+        <div>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+            </ul>
+        </div>
+    </div>
+</section> -->
+
+
+
+      
+
+
+
+</body>
+</html>

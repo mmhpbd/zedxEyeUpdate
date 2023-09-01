@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../image/ZEDX EYE.png" type="image/x-icon">
-    <title>ABOUT US | ZedX Eye</title>
-    <!-- DaisyUI & TailwindCss CDN Link -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us | ZedX Eye</title>
+     <!-- DaisyUI & TailwindCss CDN Link -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+     rel="stylesheet"
+     type="text/css"
+   />
+   <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Tailwind Config.Css -->
-    <!-- tailwind config js -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-        },
-      };
-    </script>
+   <!-- Tailwind Config.Css -->
+   <!-- tailwind config js -->
+   <script>
+     tailwind.config = {
+       theme: {
+         extend: {
+           colors: {
+             clifford: "#da373d",
+           },
+         },
+       },
+     };
+   </script>
 </head>
-<body class="bg-slate-900">
-    <!-- header part -->
+<body>
     <header class="sticky top-0 glass z-10">
         <div class="lg:container lg:mx-auto">
           <nav class="sticky top-0">
@@ -62,7 +60,7 @@
                     class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white"
                   >
                     <li><a>Home</a></li>
-                    <li><a>About</a></li>
+                    <li><a href="./about-us.html">About</a></li>
                     <li>
                       <a>Services</a>
                       <ul class="p-2">
@@ -81,7 +79,7 @@
                         <li><a>Blog</a></li>
                       </ul>
                     </li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./app/contact.html">Contact</a></li>
                   </ul>
                 </div>
               </div>
@@ -94,52 +92,42 @@
                       <summary class="hover:bg-sky-700 rounded-xl">
                         Services
                       </summary>
-                      <ul class="p-2 w-64">
-                        <li class="hover:bg-sky-700 hover:text-white rounded-xl">
-                          <a>Vulnerability Assement</a>
-                        </li>
-                        <li class="hover:bg-sky-700 rounded-xl">
-                          <a>Penetration Testing</a>
-                        </li>
-                        <li class="hover:bg-sky-700 rounded-xl">
-                          <a>Network Security</a>
-                        </li>
-                        <li class="hover:bg-sky-700 rounded-xl">
-                          <a>Website</a>
-                        </li>
-                        <li class="hover:bg-sky-700 rounded-xl">
-                          <a>SEO</a>
-                        </li>
-                        <li class="hover:bg-sky-700 rounded-xl">
-                          <a>Content Writing</a>
-                        </li>
-                      </ul>
+                      <div>
+                        <ul class="p-2 w-64">
+                          <li class="hover:bg-sky-700 hover:text-white rounded-xl">
+                            <a>Vulnerability Assement</a>
+                          </li>
+                          <li class="hover:bg-sky-700 rounded-xl">
+                            <a>Penetration Testing</a>
+                          </li>
+                          <li class="hover:bg-sky-700 rounded-xl">
+                            <a>Network Security</a>
+                          </li>
+                          <li class="hover:bg-sky-700 rounded-xl">
+                            <a>Website</a>
+                          </li>
+                          <li class="hover:bg-sky-700 rounded-xl">
+                            <a>SEO</a>
+                          </li>
+                          <li class="hover:bg-sky-700 rounded-xl">
+                            <a>Content Writing</a>
+                          </li>
+                        </ul>
+                      </div>
                     </details>
                   </li>
-                  <li class="hover:bg-sky-700 rounded-xl"><a href="./blog.html">Blog</a></li>
-                  <li class="hover:bg-sky-700 rounded-xl"><a href="./contact.html">Contact</a></li>
+                  <li class="hover:bg-sky-700 rounded-xl"><a href="">Blog</a></li>
+                  <li class="hover:bg-sky-700 rounded-xl"><a href="./app/contact.html">Contact</a></li>
                 </ul>
               </div>
             </div>
           </nav>
         </div>
       </header>
+    <main>
 
-      <!-- main part Start -->
-      <main>
-        <div class="container mx-auto">
-            <h1 class="text-5xl text-center text-white mt-10">About Us</h1>
-            <p class="text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate facilis explicabo. Excepturi repellendus rem molestiae. Quasi laborum reiciendis velit tempora, dicta magnam odit commodi ipsa possimus rerum porro reprehenderit natus? Vitae iure dolores assumenda ullam corrupti, soluta deserunt aspernatur?</p>
-            <img src="../image/serviceImage/Contact-Us-Page-Banner-1.jpg" alt="" class="mt-5">
-        </div>
-        <div class="h-48 bg-slate-800 -mt-10">
-          <h3>We Help Businesses Get More Rank, Traffic And Sale</h3>
-        </div>
-
-      </main>
-
-      <!-- footer Part -->
-      <footer class="glass mt-14">
+    </main>
+    <footer class="glass mt-14">
         <div class="footer p-10 text-base-content container mx-auto">
           <div class="text-white">
             <span class="footer-title">Services</span>
@@ -152,7 +140,7 @@
           </div>
           <div class="text-white">
             <span class="footer-title">Company</span>
-            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">About us</a>
             <a class="link link-hover">Contact</a>
             <a class="link link-hover">Portfolio</a>
             <a class="link link-hover">Blog</a>
@@ -205,7 +193,7 @@
   
         <div class="footer footer-center p-10 text-primary-content">
           <div>
-            <img src="..  /image/ZEDX EYE.png" alt="" class="w-32" />
+            <img src="../image/ZEDX EYE.png" alt="" class="w-32" />
             <p class="font-bold">
               ZedX Eye Ltd. <br />Providing reliable tech since 2022
             </p>
@@ -213,8 +201,5 @@
           </div>
         </div>
       </footer>
-
-      <!-- js link -->
-      <link rel="stylesheet" href="./js/main.js" />
 </body>
 </html>

@@ -28,15 +28,16 @@
 <body>
     <h1 class="text-5xl text-white text-center">hello nevber</h1>
 
-    <div class="lg:container lg:mx-auto">
-        <nav class="sticky top-0">
+    <header class="sticky top-0 glass z-10">
+      <div class="lg:container lg:mx-auto">
+        <nav class="sticky top-0 h-20">
           <div class="navbar sticky">
             <div class="navbar-start">
               <a class="btn btn-ghost normal-case text-xl"
                 ><img
-                  src="./image/ZEDX EYE.png"
+                  src="../image/ZEDX EYE.png"
                   alt=""
-                  class="w-14 lg:w-28 flex justify-end items-"
+                  class="w-14 lg:w-28 flex justify-end items-centen -mt-32"
               /></a>
               <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -60,7 +61,7 @@
                   class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white"
                 >
                   <li><a>Home</a></li>
-                  <li><a href="./about-us.html">About</a></li>
+                  <li><a>About</a></li>
                   <li>
                     <a>Services</a>
                     <ul class="p-2">
@@ -79,20 +80,24 @@
                       <li><a>Blog</a></li>
                     </ul>
                   </li>
-                  <li><a>Contact</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
                 </ul>
               </div>
             </div>
             <div class="navbar-end hidden lg:flex">
               <ul class="menu menu-horizontal px-1 md:text-base xl:text-xl">
-                <li class="hover:bg-sky-700 "><a >Home</a></li>
-                <li class="hover:bg-sky-700 "><a >About</a></li>
+                <li class="hover:bg-sky-700 rounded-xl h-12">
+                  <a href="../index.html">Home</a>
+                </li>
+                <li class="hover:bg-sky-700 rounded-xl h-12">
+                  <a href="./about-us.html">About</a>
+                </li>
                 <li>
-                  <details class="dropdown mb-32">
-                    <summary class="m-1 btn bg-transparent">open or close</summary>
-                    <div class="p-2 shadow menu dropdown-content z-[1] bg-base-100 w-screen">
-                      <div class="container mx-auto flex">
-                        <div class="w-1/4">
+                  <details class="dropdown dropdown-hover mb-32">
+                    <summary class="btn bg-transparent">open or close</summary>
+                    <ul class=" shadow menu dropdown-content z-[1] bg-base-100 min-w-max -ml-96 rounded-xl">
+                      <div class="container flex justify-start items-start left-0">
+                        <div class="w-1/4 mr-20">
                             <h3 class="text-white text-xl">Cyber Security</h3>
                             <div>
                                 <ul>
@@ -104,7 +109,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="w-1/4">
+                        <div class="w-1/4 mr-20">
                             <h3 class="text-white text-xl">Cyber Security</h3>
                             <div>
                                 <ul>
@@ -116,7 +121,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="w-1/4">
+                        <div class="w-1/4 mr-20">
                             <h3 class="text-white text-xl">Cyber Security</h3>
                             <div>
                                 <ul>
@@ -128,7 +133,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="w-1/4">
+                        <div class="w-1/4 mr-20">
                             <h3 class="text-white text-xl">Cyber Security</h3>
                             <div>
                                 <ul>
@@ -141,16 +146,21 @@
                             </div>
                         </div>
                       </div>
-                  </div>
+                    </ul>
                   </details>
                 </li>
-                <li class="hover:bg-sky-700 rounded-xl"><a href="">Blog</a></li>
-                <li class="hover:bg-sky-700 rounded-xl"><a>Contact</a></li>
+                <li class="hover:bg-sky-700 rounded-xl h-12">
+                  <a href="./blog.html">Blog</a>
+                </li>
+                <li class="hover:bg-sky-700 rounded-xl h-12">
+                  <a href="./contact.html">Contact</a>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
+    </header>
 
 
 

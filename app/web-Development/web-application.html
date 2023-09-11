@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSite & E-commerce | ZedX EYE Service</title>
+    <!-- DaisyUI & TailwindCss CDN Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config.Css -->
+
+    <script src="https://kit.fontawesome.com/e6cfaaa5c3.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind config js -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-900">
+    <header class="sticky top-0 glass z-10 text-white">
+      <div class="lg:container lg:mx-auto">
+        <nav class="sticky top-0">
+          <div class="navbar sticky">
+            <div class="navbar-start">
+              <a class="btn btn-ghost normal-case text-xl"
+                ><img
+                  src="../../image/ZEDX EYE.png"
+                  alt=""
+                  class="w-14 lg:w-28 flex justify-end items-"
+              /></a>
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </label>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white"
+                >
+                  <li><a>Home</a></li>
+                  <li><a href="./about-us.html">About</a></li>
+                  <li tabindex="0">
+                    <details>
+                      <summary class="hover:bg-sky-700 rounded-xl">
+                        Digital Marketing
+                      </summary>
+                      <ul class="p-2 bg-base-100">
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/seo.html">SEO</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/localSeo.html">Local SEO</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/eCommerceSeo.html">eCommerce SEO</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/youtubeSeo.html">Youtube SEO</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li tabindex="0">
+                    <details>
+                      <summary class="hover:bg-sky-700 rounded-xl">
+                        Content Writing
+                      </summary>
+                      <ul class="p-2 bg-base-100 min-w-max">
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/seo-content.html">SEO Content</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/web-content.html">Web Content</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/blog-writing.html">Blog Writing</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/article-writing.html">Article Writing</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/product-description.html">Product Description</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/product-review.html">Product Review</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/ebook-writing.html">Ebook Writing</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/ghost-writing.html">Ghost Writing</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/press-release.html">Press Release</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li tabindex="0">
+                    <details>
+                      <summary class="hover:bg-sky-700 rounded-xl">
+                        Web & App
+                      </summary>
+                      <ul class="p-2 bg-base-100 min-w-max">
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./website-ecommerce.html">Website & eCommerce</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./web-application.html">Web Application</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./mobile-app.html">Mobile App Development</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li tabindex="0">
+                    <details>
+                      <summary tabindex="0" class="hover:bg-sky-700 rounded-xl">
+                        Cyber Security
+                      </summary>
+                      <ul class="p-2 bg-base-100 min-w-max">
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./cyber-security/vulnerability.html">Vulnerability Assessment</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./cyber-security/Penetration.html">Penetration Testing</a></li>
+                        <li class="hover:bg-sky-700 rounded-xl"><a href="./cyber-security/network.html">Network Security</a></li>
+                      </ul>
+                    </details>
+                  </li>
+
+                  <li>
+                    <a href="./blog.html">Blog</a>
+                  </li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 md:text-base xl:text-xl">
+                <li class="hover:bg-sky-700 rounded-xl"><a href="./index.html">Home</a></li>
+                <li class="hover:bg-sky-700 rounded-xl"><a href="./about-us.html">About</a></li>
+                <li tabindex="0">
+                  <details>
+                    <summary class="hover:bg-sky-700 rounded-xl">
+                      Digital Marketing
+                    </summary>
+                    <ul class="p-2 bg-base-100">
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/seo.html">SEO</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/localSeo.html">Local SEO</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/eCommerceSeo.html">eCommerce SEO</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./digital-marketing/youtubeSeo.html">Youtube SEO</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li tabindex="0">
+                  <details>
+                    <summary class="hover:bg-sky-700 rounded-xl">
+                      Content Writing
+                    </summary>
+                    <ul class="p-2 bg-base-100 min-w-max">
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/seo-content.html">SEO Content</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/web-content.html">Web Content</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/blog-writing.html">Blog Writing</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/article-writing.html">Article Writing</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/product-description.html">Product Description</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/product-review.html">Product Review</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/ebook-writing.html">Ebook Writing</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/ghost-writing.html">Ghost Writing</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./content-writing/press-release.html">Press Release</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li tabindex="0">
+                  <details>
+                    <summary class="hover:bg-sky-700 rounded-xl">
+                      Web & App
+                    </summary>
+                    <ul class="p-2 bg-base-100 min-w-max">
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./website-ecommerce.html">Website & eCommerce</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./web-application.html">Web Application</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./mobile-app.html">Mobile App Development</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li tabindex="0">
+                  <details>
+                    <summary tabindex="0" class="hover:bg-sky-700 rounded-xl">
+                      Cyber Security
+                    </summary>
+                    <ul class="p-2 bg-base-100 min-w-max">
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./cyber-security/vulnerability.html">Vulnerability Assessment</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./cyber-security/Penetration.html">Penetration Testing</a></li>
+                      <li class="hover:bg-sky-700 rounded-xl"><a href="./cyber-security/network.html">Network Security</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li class="hover:bg-sky-700 rounded-xl"><a href="">Blog</a></li>
+                <li class="hover:bg-sky-700 rounded-xl"><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div
+          class="hero"
+          style="
+            background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);
+          "
+        >
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-full mt-10">
+              <h1 class="mb-5 text-5xl font-bold text-white">
+                Best Website Development Company In Bangladesh
+              </h1>
+              <p class="mb-5">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+              <button class="btn bg-slate-700">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="glass flex flex-col justify-center items-center">
+        <h2 class="text-white text-center text-3xl py-5">Our Practical Live Strategy Planning, Management</h2>
+        <div class="container pt-5 mx-auto flex">
+          <div class="w-1/2 mr-5 flex flex-col justify-center items-center">
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+          </div>
+          <div class="w-1/2 flex flex-col justify-center items-center">
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+            <div class="flex my-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span>Your purchase has been confirmed!</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mx-auto my-10 flex">
+        <div class="w-8/12">
+          <div class="mr-5">
+            <h3 class="text-white text-4xl text-center font-bold">Best Web Development Company</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque nulla dolorem cum dolor laboriosam culpa numquam? Hic officia voluptatem magni at in atque itaque officiis eos earum sed, necessitatibus nesciunt. Placeat, vitae iste explicabo voluptatum doloremque nemo vero magnam, quae debitis velit voluptates ea quidem odio? Voluptates voluptatem, molestias voluptatibus, exercitationem obcaecati pariatur doloribus quas itaque iste quia est magnam ab nulla sint temporibus rem consequatur labore facilis esse, ipsam illo dignissimos. Enim officia ratione repudiandae recusandae cumque reprehenderit quod inventore, sint labore, numquam nisi voluptatem? Dolor, cupiditate, minus inventore voluptates natus explicabo labore excepturi facilis voluptatibus suscipit accusantium repellat est deserunt fugit officia beatae illo unde. Laboriosam eligendi omnis, aut, debitis quo velit commodi maiores dolor recusandae maxime laudantium placeat magnam sed porro illum reiciendis sunt, blanditiis praesentium sequi repudiandae delectus molestias. Rem ex aspernatur distinctio earum quo perspiciatis repellat fuga doloremque, quis pariatur, expedita accusamus culpa, soluta totam ipsa nulla unde eveniet suscipit!</p>
+          </div>
+        </div>
+        <div class="4/12">
+          <img src="../../image/Cyber-Lock-security-padlock-Background-by-ojosujono96-580x387.jpg" alt="">
+        </div>
+      </section>
+
+      <section class=" my-10 bg-slate-600">
+       <div class="container flex mx-auto py-5">
+        <div class="4/12">
+          <img src="../../image/Cyber-Lock-security-padlock-Background-by-ojosujono96-580x387.jpg" alt="">
+        </div>
+        <div class="w-8/12">
+          <div class="ml-5">
+            <h3 class="text-white text-4xl text-center font-bold">Web Development</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque nulla dolorem cum dolor laboriosam culpa numquam? Hic officia voluptatem magni at in atque itaque officiis eos earum sed, necessitatibus nesciunt. Placeat, vitae iste explicabo voluptatum doloremque nemo vero magnam, quae debitis velit voluptates ea quidem odio? Voluptates voluptatem, molestias voluptatibus, exercitationem obcaecati pariatur doloribus quas itaque iste quia est magnam ab nulla sint temporibus rem consequatur labore facilis esse, ipsam illo dignissimos. Enim officia ratione repudiandae recusandae cumque reprehenderit quod inventore, sint labore, numquam nisi voluptatem? Dolor, cupiditate, minus inventore voluptates natus explicabo labore excepturi facilis voluptatibus suscipit accusantium repellat est deserunt fugit officia beatae illo unde. Laboriosam eligendi omnis, aut, debitis quo velit commodi maiores dolor recusandae maxime laudantium placeat magnam sed porro illum reiciendis sunt, blanditiis praesentium sequi repudiandae delectus molestias. Rem ex aspernatur distinctio earum quo perspiciatis repellat fuga doloremque, quis pariatur, expedita accusamus culpa, soluta totam ipsa nulla unde eveniet suscipit!</p>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section class="container mx-auto my-10 flex">
+        <div class="w-8/12">
+          <div class="mr-5">
+            <h3 class="text-white text-4xl text-center font-bold">Best Web Development Company</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque nulla dolorem cum dolor laboriosam culpa numquam? Hic officia voluptatem magni at in atque itaque officiis eos earum sed, necessitatibus nesciunt. Placeat, vitae iste explicabo voluptatum doloremque nemo vero magnam, quae debitis velit voluptates ea quidem odio? Voluptates voluptatem, molestias voluptatibus, exercitationem obcaecati pariatur doloribus quas itaque iste quia est magnam ab nulla sint temporibus rem consequatur labore facilis esse, ipsam illo dignissimos. Enim officia ratione repudiandae recusandae cumque reprehenderit quod inventore, sint labore, numquam nisi voluptatem? Dolor, cupiditate, minus inventore voluptates natus explicabo labore excepturi facilis voluptatibus suscipit accusantium repellat est deserunt fugit officia beatae illo unde. Laboriosam eligendi omnis, aut, debitis quo velit commodi maiores dolor recusandae maxime laudantium placeat magnam sed porro illum reiciendis sunt, blanditiis praesentium sequi repudiandae delectus molestias. Rem ex aspernatur distinctio earum quo perspiciatis repellat fuga doloremque, quis pariatur, expedita accusamus culpa, soluta totam ipsa nulla unde eveniet suscipit!</p>
+          </div>
+        </div>
+        <div class="4/12">
+          <img src="../../image/Cyber-Lock-security-padlock-Background-by-ojosujono96-580x387.jpg" alt="">
+        </div>
+      </section>
+
+      <section class=" my-10 bg-slate-600">
+        <div class="container flex mx-auto py-5">
+         <div class="4/12">
+           <img src="../../image/Cyber-Lock-security-padlock-Background-by-ojosujono96-580x387.jpg" alt="">
+         </div>
+         <div class="w-8/12">
+           <div class="ml-5">
+             <h3 class="text-white text-4xl text-center font-bold">Web Development</h3>
+             <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque nulla dolorem cum dolor laboriosam culpa numquam? Hic officia voluptatem magni at in atque itaque officiis eos earum sed, necessitatibus nesciunt. Placeat, vitae iste explicabo voluptatum doloremque nemo vero magnam, quae debitis velit voluptates ea quidem odio? Voluptates voluptatem, molestias voluptatibus, exercitationem obcaecati pariatur doloribus quas itaque iste quia est magnam ab nulla sint temporibus rem consequatur labore facilis esse, ipsam illo dignissimos. Enim officia ratione repudiandae recusandae cumque reprehenderit quod inventore, sint labore, numquam nisi voluptatem? Dolor, cupiditate, minus inventore voluptates natus explicabo labore excepturi facilis voluptatibus suscipit accusantium repellat est deserunt fugit officia beatae illo unde. Laboriosam eligendi omnis, aut, debitis quo velit commodi maiores dolor recusandae maxime laudantium placeat magnam sed porro illum reiciendis sunt, blanditiis praesentium sequi repudiandae delectus molestias. Rem ex aspernatur distinctio earum quo perspiciatis repellat fuga doloremque, quis pariatur, expedita accusamus culpa, soluta totam ipsa nulla unde eveniet suscipit!</p>
+           </div>
+         </div>
+       </div>
+       </section> 
+
+      <section class="container mx-auto my-10 flex">
+        <div class="w-8/12">
+          <div class="mr-5">
+            <h3 class="text-white text-4xl text-center font-bold">Best Web Development Company</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque nulla dolorem cum dolor laboriosam culpa numquam? Hic officia voluptatem magni at in atque itaque officiis eos earum sed, necessitatibus nesciunt. Placeat, vitae iste explicabo voluptatum doloremque nemo vero magnam, quae debitis velit voluptates ea quidem odio? Voluptates voluptatem, molestias voluptatibus, exercitationem obcaecati pariatur doloribus quas itaque iste quia est magnam ab nulla sint temporibus rem consequatur labore facilis esse, ipsam illo dignissimos. Enim officia ratione repudiandae recusandae cumque reprehenderit quod inventore, sint labore, numquam nisi voluptatem? Dolor, cupiditate, minus inventore voluptates natus explicabo labore excepturi facilis voluptatibus suscipit accusantium repellat est deserunt fugit officia beatae illo unde. Laboriosam eligendi omnis, aut, debitis quo velit commodi maiores dolor recusandae maxime laudantium placeat magnam sed porro illum reiciendis sunt, blanditiis praesentium sequi repudiandae delectus molestias. Rem ex aspernatur distinctio earum quo perspiciatis repellat fuga doloremque, quis pariatur, expedita accusamus culpa, soluta totam ipsa nulla unde eveniet suscipit!</p>
+          </div>
+        </div>
+        <div class="4/12">
+          <img src="../../image/Cyber-Lock-security-padlock-Background-by-ojosujono96-580x387.jpg" alt="">
+        </div>
+      </section>
+
+      <section class=" my-10 bg-slate-600">
+        <div class="container flex mx-auto py-5">
+         <div class="4/12">
+           <img src="../../image/Cyber-Lock-security-padlock-Background-by-ojosujono96-580x387.jpg" alt="">
+         </div>
+         <div class="w-8/12">
+           <div class="ml-5">
+             <h3 class="text-white text-4xl text-center font-bold">Web Development</h3>
+             <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque nulla dolorem cum dolor laboriosam culpa numquam? Hic officia voluptatem magni at in atque itaque officiis eos earum sed, necessitatibus nesciunt. Placeat, vitae iste explicabo voluptatum doloremque nemo vero magnam, quae debitis velit voluptates ea quidem odio? Voluptates voluptatem, molestias voluptatibus, exercitationem obcaecati pariatur doloribus quas itaque iste quia est magnam ab nulla sint temporibus rem consequatur labore facilis esse, ipsam illo dignissimos. Enim officia ratione repudiandae recusandae cumque reprehenderit quod inventore, sint labore, numquam nisi voluptatem? Dolor, cupiditate, minus inventore voluptates natus explicabo labore excepturi facilis voluptatibus suscipit accusantium repellat est deserunt fugit officia beatae illo unde. Laboriosam eligendi omnis, aut, debitis quo velit commodi maiores dolor recusandae maxime laudantium placeat magnam sed porro illum reiciendis sunt, blanditiis praesentium sequi repudiandae delectus molestias. Rem ex aspernatur distinctio earum quo perspiciatis repellat fuga doloremque, quis pariatur, expedita accusamus culpa, soluta totam ipsa nulla unde eveniet suscipit!</p>
+           </div>
+         </div>
+       </div>
+       </section> 
+
+      <section class="container mx-auto my-10 flex">
+        <div class="w-8/12">
+          <div class="mr-5">
+            <h3 class="text-white text-4xl text-center font-bold">Best Web Development Company</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque nulla dolorem cum dolor laboriosam culpa numquam? Hic officia voluptatem magni at in atque itaque officiis eos earum sed, necessitatibus nesciunt. Placeat, vitae iste explicabo voluptatum doloremque nemo vero magnam, quae debitis velit voluptates ea quidem odio? Voluptates voluptatem, molestias voluptatibus, exercitationem obcaecati pariatur doloribus quas itaque iste quia est magnam ab nulla sint temporibus rem consequatur labore facilis esse, ipsam illo dignissimos. Enim officia ratione repudiandae recusandae cumque reprehenderit quod inventore, sint labore, numquam nisi voluptatem? Dolor, cupiditate, minus inventore voluptates natus explicabo labore excepturi facilis voluptatibus suscipit accusantium repellat est deserunt fugit officia beatae illo unde. Laboriosam eligendi omnis, aut, debitis quo velit commodi maiores dolor recusandae maxime laudantium placeat magnam sed porro illum reiciendis sunt, blanditiis praesentium sequi repudiandae delectus molestias. Rem ex aspernatur distinctio earum quo perspiciatis repellat fuga doloremque, quis pariatur, expedita accusamus culpa, soluta totam ipsa nulla unde eveniet suscipit!</p>
+          </div>
+        </div>
+        <div class="4/12">
+          <img src="../../image/Cyber-Lock-security-padlock-Background-by-ojosujono96-580x387.jpg" alt="">
+        </div>
+      </section>
+      <section class="glass px-5 flex">
+        <div class="w-3/5 mr-5">
+          <div class="border pt-5">
+            <h5 class="text-center text-white text-2xl">Get in Touch</h5>
+          
+            <div class="grid grid-cols-4 gap-3 my-10">
+              <div class="flex flex-col justify-center items-center">
+                <i class="fa-solid fa-mobile-screen-button text-4xl bg-slate-900 p-5 rounded-full"></i>
+                <h6 class="text-white text-xl text-center">Give us a call</h6>
+              </div>
+              <div class="flex flex-col justify-center items-center">
+                <i class="fa-solid fa-envelope-open text-4xl bg-slate-900 p-5 rounded-full text-gray-400" ></i>
+                <h6 class="text-white text-xl text-center">Write to Us</h6>
+              </div>
+              <div class="flex flex-col justify-center items-center">
+                <i class="fa-brands fa-skype text-4xl bg-slate-900 p-5 rounded-full text-gray-400"></i>
+                <h6 class="text-white text-xl text-center">Video Chat with Us</h6>
+              </div>
+              <div class="flex flex-col justify-center items-center">
+                <i class="fa-brands fa-nfc-directional text-4xl bg-slate-900 p-5 rounded-full text-gray-400"></i>
+                <h6 class="text-white text-xl text-center">Open Your Ticket</h6>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="w-2/5">
+          <div class="border px-5 py-5 flex flex-col">
+            <h5 class="text-center text-white text-2xl">Subscribe To More Update</h5>
+            <p class="my-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ipsam?</p>
+            <div>
+              <input type="text" placeholder="Email name" class="input input-bordered input-info w-full max-w-xs" />
+              <input type="text" placeholder="Email email" class="input input-bordered input-info w-full max-w-xs" />
+            </div>
+            <button class="btn bg-slate-700 my-4">Get Started</button>
+          </div>
+        </div>
+      </section>
+
+      
+        <div class="mt-10 grid grid-cols-9 gap-5 container mx-auto">
+          <i class="fa-brands fa-facebook text-6xl text-blue-600"></i>
+          <i class="fa-brands fa-linkedin text-6xl text-blue-900"></i>
+          <i class="fa-brands fa-github text-6xl text-white"></i>
+          <i class="fa-brands fa-instagram text-6xl text-yellow-600"></i>
+          <i class="fa-brands fa-pinterest text-6xl text-red-700"></i>
+          <i class="fa-brands fa-twitter text-6xl text-blue-600"></i>
+          <i class="fa-brands fa-youtube text-6xl text-red-600"></i>
+          <i class="fa-brands fa-behance text-6xl text-white"></i>
+          <i class="fa-brands fa-wikipedia-w text-6xl text-white"></i>
+          
+        </div>
+      
+
+
+
+    </main>
+    <footer class="glass mt-14">
+      <div class="footer p-10 text-base-content container mx-auto">
+        <div class="text-white">
+          <span class="footer-title">Services</span>
+          <a class="link link-hover">Vulnerability Assessment</a>
+          <a class="link link-hover">Penetration Testing</a>
+          <a class="link link-hover">Network Security</a>
+          <a class="link link-hover">Website</a>
+          <a class="link link-hover">SEO</a>
+          <a class="link link-hover">Content Writing</a>
+        </div>
+        <div class="text-white">
+          <span class="footer-title">Company</span>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blog</a>
+        </div>
+        <div class="text-white">
+          <span class="footer-title">Social</span>
+          <div class="grid grid-flow-col gap-4">
+            <a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer footer-center p-10 text-primary-content">
+        <div>
+          <img src="../../image/ZEDX EYE.png" alt="" class="w-32" />
+          <p class="font-bold">
+            ZedX Eye Ltd. <br />Providing reliable tech since 2022
+          </p>
+          <p>Copyright © 2023 - All right reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
